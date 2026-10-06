@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Early access: monthly books for Pune housing societies</title>
+<meta name="description" content="Waitlist for a service in development: done-for-you monthly books and dues reconciliation over WhatsApp for 20-60-flat Pune co-operative housing societies.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<p class="badge">Early access waitlist. This service is still in development and is not live yet.</p>
+<h1>Monthly books for your Pune housing society, done for you over WhatsApp</h1>
+<p>For treasurers, secretaries and chairmen of co-operative housing societies with 20 to 60 flats and no paid manager.</p>
+</header>
+<main>
+<section>
+<h2>The problem</h2>
+<p>In many societies a volunteer does the monthly accounts: matching bank credits to flats, issuing maintenance receipts, tracking dues and defaulters, and keeping vouchers and the bank reconciliation ready for the annual audit. Accounting software exists, but someone still has to run it.</p>
+</section>
+<section>
+<h2>What we plan to do</h2>
+<p>You forward the bank statement and bills on WhatsApp. We prepare:</p>
+<ul>
+<li>Maintenance receipts</li>
+<li>The dues and defaulter ledger</li>
+<li>The monthly bank reconciliation</li>
+<li>An audit-ready voucher file</li>
+</ul>
+</section>
+<section>
+<h2>What we do not do</h2>
+<ul>
+<li>We do not do the statutory audit. Your society's own auditor still does that.</li>
+<li>We do not do any work reserved for chartered accountants.</li>
+<li>The service is not live yet. Joining the waitlist does not start any service.</li>
+</ul>
+</section>
+<section>
+<h2>Planned price</h2>
+<table>
+<caption class="sr">Planned monthly price by society size</caption>
+<thead><tr><th scope="col">Society size</th><th scope="col">Per month</th></tr></thead>
+<tbody>
+<tr><td>20 to 35 flats</td><td>Rs 999</td></tr>
+<tr><td>36 to 60 flats</td><td>Rs 1,500</td></tr>
+</tbody>
+</table>
+<p>These are proposed prices and may change. No payment is taken on this page.</p>
+</section>
+<section id="join">
+<h2>Join the waitlist</h2>
+<p>Tell us a little about your society. Please do not send bank details, statements or other society data.</p>
+<form action="https://incredible-has-consequences-likes.trycloudflare.com/signup/xp_0e7a8e76ace1" method="post">
+<p><label for="email">Email</label><input type="email" id="email" name="email" required autocomplete="email"></p>
+<p><label for="role">Your role</label>
+<select id="role" name="role" required>
+<option value="">Select</option>
+<option>Treasurer</option>
+<option>Secretary</option>
+<option>Chairman</option>
+<option>Other committee member</option>
+<option>Not an office-bearer</option>
+</select></p>
+<p><label for="flats">Number of flats</label><input type="number" id="flats" name="flats" min="1" max="2000" inputmode="numeric" required></p>
+<p><label for="books">Who does the books today?</label>
+<select id="books" name="books_today" required>
+<option value="">Select</option>
+<option>A volunteer committee member</option>
+<option>A local accountant (paid)</option>
+<option>A society app run by us</option>
+<option>Other</option>
+</select></p>
+<fieldset>
+<legend>Would the committee need to approve this spend?</legend>
+<label class="inline"><input type="radio" name="committee_approval" value="yes" required> Yes</label>
+<label class="inline"><input type="radio" name="committee_approval" value="no"> No</label>
+</fieldset>
+<p><label for="price">Optional: "Only at Rs __" per month</label><input type="text" id="price" name="price_comment" maxlength="60"></p>
+<input type="hidden" name="source" id="source" value="">
+<p class="consent"><label class="inline"><input type="checkbox" name="consent" value="yes" required> I agree to be contacted by email about this early-access pilot.</label></p>
+<p class="note">Privacy: we only use your email to contact you about this early-access pilot. We do not sell or share it. Please do not send bank or society data.</p>
+<p><button type="submit">Join the waitlist</button></p>
+</form>
+</section>
+</main>
+<footer><p>Early-access pilot in development. Not a statutory audit or CA service.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
