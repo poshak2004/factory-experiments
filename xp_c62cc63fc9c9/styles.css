@@ -1,0 +1,15 @@
+body{font:1rem/1.55 system-ui,sans-serif;color:#1a1a1a;background:#fff;margin:0;padding:0 1rem 2rem}
+header,main,footer{max-width:36rem;margin:0 auto}
+h1{font-size:1.6rem;line-height:1.25}
+h2{font-size:1.2rem;margin-top:1.8rem}
+.tag{display:inline-block;background:#fff3cd;color:#5c4400;padding:.3rem .6rem;border-radius:4px;font-weight:600;margin-top:1.2rem}
+label{display:block;margin-top:1rem;font-weight:600}
+label.inline{display:flex;gap:.5rem;align-items:flex-start;font-weight:400}
+input[type=text],input[type=tel],input[type=email],input[type=number],select{width:100%;box-sizing:border-box;font:inherit;padding:.65rem;border:1px solid #555;border-radius:4px;margin-top:.25rem}
+input[type=radio],input[type=checkbox]{width:1.2rem;height:1.2rem;margin-top:.2rem}
+fieldset{border:0;padding:0;margin:1rem 0 0}
+legend{font-weight:600}
+.note{font-size:.9rem;color:#333}
+button{margin-top:1rem;width:100%;font:inherit;font-weight:700;padding:.85rem;background:#0b5cad;color:#fff;border:0;border-radius:4px;cursor:pointer}
+:focus-visible{outline:3px solid #ff9800;outline-offset:2px}
+footer{margin-top:2rem;font-size:.9rem;color:#333}
