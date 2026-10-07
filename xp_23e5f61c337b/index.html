@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Early access waitlist: supplier chasing for missing GSTR-2B credit (Pune)</title>
+<meta name="description" content="Early-access waitlist for a service in development: a person follows up with suppliers whose invoices are missing from your GSTR-2B. Pune traders.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<p class="tag">Early access · Waitlist · In development</p>
+<h1>Missing GSTR-2B credit? A person follows up with your suppliers.</h1>
+<p>We are building a small service for regular-GST traders in Pune. This page is a waitlist for an early-access pilot. The service is not live yet and nothing is sold on this page.</p>
+<p><a href="#join" class="btn">Join the waitlist</a></p>
+</header>
+<main>
+<section>
+<h2>The problem</h2>
+<p>If a supplier has not filed GSTR-1 (or filed wrong details), their invoice does not show in your GSTR-2B. Under Section 16(2)(aa) of the CGST Act, input tax credit (ITC) on that invoice is blocked until it appears. Under Section 16(4) there is a deadline, so credit can be lost permanently if the supplier files too late. The usual advice is to follow up with the supplier.</p>
+<p>Many small businesses are busy and follow-up gets postponed. Please check dates and rules with your own CA; this page is not tax advice.</p>
+</section>
+<section>
+<h2>What we plan to offer in the pilot</h2>
+<ul>
+<li>You give us a list of named suppliers whose invoices are missing from your GSTR-2B, plus your written authorisation to contact them on your behalf.</li>
+<li>A person (not software) follows up with those suppliers, in English, Hindi or Marathi.</li>
+<li>You receive a report of which credit appeared in GSTR-2B.</li>
+</ul>
+<h3>Limits of the service</h3>
+<ul>
+<li>We cannot make a supplier file. Some suppliers may not respond, and it is possible that no credit appears.</li>
+<li>We do not know yet how suppliers react to a call from a third party. That is untested.</li>
+<li>We do not give tax or legal advice.</li>
+</ul>
+</section>
+<section>
+<h2>Who it is for</h2>
+<p>Owners or accountants of regular-GST traders and distributors in Pune with many purchase suppliers, who have ITC missing from GSTR-2B for 60+ days and have not been able to fix it through payment holds or their CA.</p>
+</section>
+<section>
+<h2>Indicative price</h2>
+<p><strong>Rs 1,999 for up to 15 named suppliers</strong> is the price we are considering for the pilot. This is indicative and may change. <strong>Nothing is charged now</strong> and no payment details are collected here.</p>
+</section>
+<section id="join">
+<h2>Join the waitlist</h2>
+<p>After you submit, we will contact you with a few screening questions to see if the pilot fits. Fields marked * are required.</p>
+<form action="https://incredible-has-consequences-likes.trycloudflare.com/signup/xp_23e5f61c337b" method="post">
+<input type="hidden" name="source" id="source" value="direct">
+<p><label for="email">Email *</label><input type="email" id="email" name="email" required autocomplete="email"></p>
+<p><label for="phone">Phone (optional)</label><input type="tel" id="phone" name="phone" autocomplete="tel"></p>
+<p><label for="business">Business name *</label><input type="text" id="business" name="business_name" required autocomplete="organization"></p>
+<p><label for="suppliers">Approximate number of purchase suppliers</label>
+<select id="suppliers" name="supplier_count">
+<option value="">Select</option>
+<option>Under 30</option>
+<option>30 to 60</option>
+<option>More than 60</option>
+</select></p>
+<p><label for="itc">Approximate ITC missing from GSTR-2B for 60+ days</label>
+<select id="itc" name="missing_itc_range">
+<option value="">Select</option>
+<option>Under Rs 25,000</option>
+<option>Rs 25,000 to 1 lakh</option>
+<option>Rs 1 lakh to 5 lakh</option>
+<option>More than Rs 5 lakh</option>
+<option>Not sure</option>
+</select></p>
+<p><label for="handled">Do you already hold payment, or does your CA or staff chase this?</label>
+<select id="handled" name="already_handled">
+<option value="">Select</option>
+<option>Yes, it is handled</option>
+<option>Partly</option>
+<option>No</option>
+</select></p>
+<p class="check"><input type="checkbox" id="consent" name="consent" value="yes" required>
+<label for="consent">I agree to be contacted about this early-access pilot and to you storing the details I enter here for that purpose. *</label></p>
+<p class="note">Privacy: we only use your email to contact you about this early-access pilot.</p>
+<p><button type="submit" class="btn">Join the waitlist</button></p>
+</form>
+<p id="thanks" class="thanks" hidden tabindex="-1">Thank you. No payment is due and none was taken. We will follow up with a short set of screening questions.</p>
+</section>
+</main>
+<footer><p>Early-access experiment in development. Not affiliated with the GST authorities. Not tax or legal advice.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
